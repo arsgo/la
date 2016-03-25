@@ -19,7 +19,7 @@
 ### 使用方法
 
 
-        go get -u -v github.com/lib4go/la
+        go get -u -v github.com/colinyl/la
 
 
         $ ./la -i ./ -f 操作失败
