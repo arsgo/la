@@ -21,6 +21,7 @@ func main() {
 	flag.StringVar(&find, "f", "", "匹配内容")
 	flag.Parse()
 
+
 	if len(inputPath) == 0 || len(find) == 0 {
 		fmt.Println(`日志分析工具,读取日志文件或日志目录,并解析为日志块,可根据关健字搜索日志块信息`)
 		flag.Usage()
